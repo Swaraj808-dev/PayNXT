@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 
@@ -10,9 +9,52 @@ body {
   padding: 40px 0 80px;
 }
 
+#navbar {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  height: 23px;
+  background-color: hsl(0 0% 100%);
+  opacity: 80%;
+  border: 2px solid black;
+  padding: 15px 0;
+}
+#logo:hover {
+  color: #4a0572;
+  cursor: pointer;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #8c03e8;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.logo-img{
+    width:40px;
+    height:35px;
+    float:left;
+    margin-left:30px;
+    margin-top:-5px;
+}
+
+.nav-item:hover {
+  color: #8c03e8;
+  cursor: pointer;
+}
+.nav-item {
+  float: right;
+  color: rgba(0, 0, 0, 0.649);
+  font-size: 17px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
 .page-header {
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 35px;
 }
 
 .page-header h2 {
