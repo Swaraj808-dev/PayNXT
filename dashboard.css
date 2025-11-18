@@ -6,7 +6,6 @@
 
 body {
   background: #f7f7f9;
-  padding: 30px;
 }
 #navbar {
   position:fixed;
@@ -51,7 +50,10 @@ body {
 }
 
 .welcome {
+  margin-top: 75px;
   margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .welcome h2 {
   font-size: 28px;
@@ -70,6 +72,8 @@ body {
   border-radius: 14px;
   color: white;
   margin-bottom: 26px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .label {
   opacity: .8;
@@ -107,6 +111,8 @@ body {
   display: flex;
   gap: 14px;
   margin-bottom: 26px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .action {
   flex: 1;
@@ -128,6 +134,8 @@ body {
   display: flex;
   gap: 14px;
   margin-bottom: 26px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .stat {
   flex: 1;
@@ -152,6 +160,9 @@ body {
   border-radius: 12px;
   padding: 20px;
   border: 1px solid #e7e7e7;
+  margin-left: 40px;
+  margin-right: 40px;
+  
 }
 .trans-header {
   display: flex;
