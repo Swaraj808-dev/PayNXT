@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(243 75% 97%);
+  color: #222;
+  width: auto;
+  margin: 0 auto;
+}
+
+#navbar {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  height: 23px;
+  background-color: hsl(0 0% 100%);
+  opacity: 80%;
+  border: 2px solid black;
+  padding: 15px 0;
+}
+#logo:hover {
+  color: #4a0572;
+  cursor: pointer;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #8c03e8;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.logo-img{
+    width:40px;
+    height:35px;
+    float:left;
+    margin-left:30px;
+    margin-top:-5px;
+}
+
+.nav-item:hover {
+  color: #8c03e8;
+  cursor: pointer;
+}
+.nav-item {
+  float: right;
+  color: rgba(0, 0, 0, 0.649);
+  font-size: 17px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.img1{
+    width: 100%;
+    height: 500px;
+    margin-top: 55px;
+    object-fit: cover;
+    overflow: hidden;
+    background:
+        linear-gradient(135deg, rgba(138, 43, 226, 0.7), rgba(72, 207, 255, 0.7)),
+        url('index.jpeg') center/cover no-repeat;
+    ;
+}
+.text1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 150px;
+}
+.highlight{
+    color: #4a0572a5;
+}
+.text2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.hero-buttons {
+    display: flex;          /* enables flexbox */
+    justify-content: center; /* centers buttons horizontally */
+    align-items: center;     /* vertically centers if needed */
+    gap: 20px;               /* space between buttons */
+    flex-wrap: wrap;         /* allows wrapping on smaller screens */
+    margin-top: 50px;        /* space below the text */
+}
+.gs{
+    width: 170px;
+    height: 50px;
+    background-color: #4a0572a5;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.db{
+    width: 170px;
+    height: 50px;
+    background-color: #ffffff30;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.db:hover{
+    background-color: rgba(255, 255, 255, 0.459);
+}
+.gs:hover{
+    background-color: #4a0572;
+}
+.why{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.why-text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.649);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.feature-img{
+    width: 80px;
+    height: 80px;
+
+}
+.feature-card{
+    background-color: white;
+    border: .5px solid rgba(128, 128, 128, 0.394);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+.feature-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.feature-desc{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.649);
+    margin-top: 10px;
+}
+.journey{
+    background: linear-gradient(135deg, hsl(260, 60%, 55%), hsl(210, 70%, 60%));
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 30px 15px;
+    text-align: center;;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+}
+.journey-text2{
+    font-size: 22px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+}
+.journey-text1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.journey-button{
+    margin-top: 25px; 
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff30;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.journey-button:hover{
+    background-color: rgba(255, 255, 255, 0.459);
+}

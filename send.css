@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f6f6f8;
+  padding: 40px 0 80px;
+}
+
+#navbar {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  height: 23px;
+  background-color: hsl(0 0% 100%);
+  opacity: 80%;
+  border: 2px solid black;
+  padding: 15px 0;
+}
+#logo:hover {
+  color: #4a0572;
+  cursor: pointer;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #8c03e8;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.logo-img{
+    width:40px;
+    height:35px;
+    float:left;
+    margin-left:30px;
+    margin-top:-5px;
+}
+
+.nav-item:hover {
+  color: #8c03e8;
+  cursor: pointer;
+}
+.nav-item {
+  float: right;
+  color: rgba(0, 0, 0, 0.649);
+  font-size: 17px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.page-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.page-header p {
+  color: #777;
+  margin-top: 6px;
+}
+
+.card {
+  width: 650px;
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  margin: 0 auto 24px;
+  border: 1px solid #e8e8e8;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.quick {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.amount {
+  flex: 1;
+  padding: 10px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-purple {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #9b5cff, #c15bff);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.recent-card h3 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.recent-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.recent-item span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.recent-icon {
+  width: 22px;
+  height: 22px;
+}
+.btn-purple:hover{
+    opacity: 0.9;
+}
