@@ -18,57 +18,60 @@
     <a class="nav-item" href="send.html">Send</a>
     <a class="nav-item" href="dashboard.html">Dashboard</a>
   </div>
+
   <section class="page-header">
-  <h2>Mobile Recharge</h2>
-  <p>Recharge in seconds</p>
+    <h2>Mobile Recharge</h2>
+    <p>Recharge in seconds</p>
   </section>
 
   <div class="card recharge-card">
-  <label>Mobile Number</label>
-  <input type="text" placeholder="Enter 10-digit mobile number">
 
-  <label>Select Operator</label>
-  <div class="operators">
-    <button class="op">Jio</button>
-    <button class="op">Airtel</button>
-    <button class="op">VI</button>
-    <button class="op">BSNL</button>
+    <label>Mobile Number</label>
+    <input id="mobileNumber" type="text" placeholder="Enter 10-digit mobile number">
+
+    <label>Select Operator</label>
+    <div class="operators">
+      <button class="op">Jio</button>
+      <button class="op">Airtel</button>
+      <button class="op">VI</button>
+      <button class="op">BSNL</button>
+    </div>
+
+    <label>Amount (₹)</label>
+    <input id="rechargeAmount" type="number" placeholder="0.00">
+
+    <label>Quick Amounts</label>
+    <div class="quick">
+      <button class="amount">₹99</button>
+      <button class="amount">₹199</button>
+      <button class="amount">₹299</button>
+      <button class="amount">₹499</button>
+    </div>
+
+    <button id="rechargeBtn" class="btn-purple">Proceed to Recharge</button>
   </div>
 
-  <label>Amount (₹)</label>
-  <input type="number" placeholder="0.00">
+  <div class="card recent-card">
+    <h3>Recent Recharges</h3>
 
-  <label>Quick Amounts</label>
-  <div class="quick">
-    <button class="amount">₹99</button>
-    <button class="amount">₹199</button>
-    <button class="amount">₹299</button>
-    <button class="amount">₹499</button>
+    <div class="recent-item">
+      <span>
+        <img src="iphone.png" class="recent-icon">
+        9876543210 <small>Jio</small>
+      </span>
+      <strong>₹299</strong>
+    </div>
+
+    <hr>
+
+    <div class="recent-item">
+      <span>
+        <img src="iphone.png" class="recent-icon">
+        8765432109 <small>Airtel</small>
+      </span>
+      <strong>₹199</strong>
+    </div>
   </div>
 
-  <button class="btn-purple">Proceed to Recharge</button>
-</div>
-
-<div class="card recent-card">
-  <h3>Recent Recharges</h3>
-
-  <div class="recent-item">
-    <span>
-      <img src="iphone.png" class="recent-icon">
-      9876543210 <small>Jio</small>
-    </span>
-    <strong>₹299</strong>
-  </div>
-
-  <hr>
-
-  <div class="recent-item">
-    <span>
-      <img src="iphone.png" class="recent-icon">
-      8765432109 <small>Airtel</small>
-    </span>
-    <strong>₹199</strong>
-  </div>
-</div>
 </body>
 </html>
